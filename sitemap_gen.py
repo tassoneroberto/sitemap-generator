@@ -265,7 +265,7 @@ def generateSitemapFile(pageMap, fileName, changefreq="", priority=0.0):
 def main():
     try:
         opts, args = getopt.getopt(sys.argv[1:],
-                                   "hb:c:m:p:o:",
+                                   "h:b:c:m:p:o:",
                                    ["help", "block=", "changefreq=",
                                     "max-urls=", "priority=", "output-file="])
     except getopt.GetoptError:

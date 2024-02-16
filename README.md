@@ -25,8 +25,8 @@ python sitemap_gen.py <options> <starting URL>
 |-h|--help|Print this text and exit|
 |-b `<ext>`|--block `<ext>`|Exclude URLs with the given extension; `<ext>` must be without the leading dot. The comparison is case insensitive, so for example DOC and doc are treated the same. You can use this option several times to block several extensions. Some multimedia/document extensions (e.g. JPG, MP3, etc.) are blocked by default.|
 |-c `<value>`|--changefreq `<value>`|Set the change frequency. The given value is used in all sitemap entries (maybe a future version of this script will change that). The allowed values are: always, hourly, daily, weekly, monthly, yearly, never.|
-|-p `<prio>`|--priority `<prio>`|Set the priority. The value must be fromthe interval between 0.0 and 1.0. The valuewill be used in all sitemap entries.|
-|-m `<value>`|--max-urls `<value>`|Set the maximum number of URLs to be crawled.The default value is 1000 and the largest value that you can set is 50000 (the script generates only a single sitemap file).|
+|-p `<prio>`|--priority `<prio>`|Set the priority. The value must be fromthe interval between 0.0 and 1.0. The value will be used in all sitemap entries.|
+|-m `<value>`|--max-urls `<value>`|Set the maximum number of URLs to be crawled. The default value is 1000 and the largest value that you can set is 50000 (the script generates only a single sitemap file).|
 |-o `<file>`|--output-file `<file>`|Set the name of the geneated sitemap file. The default file name is sitemap.xml.|
 
 ## Excluded extensions
